@@ -77,7 +77,10 @@
           Choose today's date:
           <input type="date" name="date"> <br/>
           
-          <datalist>
+          <label for="sleep">Sleep time</label>
+          <input list="sleep" id="sleep" name="sleep" />
+
+          <datalist id="sleep">
               <option value="">--What time do u want to go sleep?--</option>
               <option value="9pm">9pm</option>
               <option value="10pm">10pm</option>
@@ -95,7 +98,7 @@
               <option value="9am">9am</option>
               <option value="10am">10am</option>
               <option value="11am">11am</option>
-          </select>
+          </select> <br/>
           <button>Create Journal</button>
         </form>
     </footer>
