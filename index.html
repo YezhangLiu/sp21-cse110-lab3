@@ -77,9 +77,18 @@
           Choose today's date:
           <input type="date" name="date"> <br/>
           
+          <label>Choose a browser from this list:
+          <input list="browsers" name="myBrowser" /></label>
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Internet Explorer">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+          
           <label for="sleep">Sleep time</label>
-          <input list="sleep" id="sleep" name="sleep" />
-          <datalist id="sleep">
+          <datalist>
               <option value="--What time do u want to go sleep?--">
               <option value="9pm">
               <option value="10pm">
@@ -95,7 +104,6 @@
           </textarea> <br/>
           
           <label for="wake">wake up time</label>
-          <input list="wake" id="wake" name="wake" />
           <select>
               <option value="">--What time do u want to get up?--</option>
               <option value="6am">6am</option>
