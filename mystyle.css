@@ -23,3 +23,15 @@
     width: 15em;
     height: 16ex;
 }
+/* navigation text style */
+.nav {
+    display:contents;
+    color: aquamarine;
+    text-decoration: underline dotted red;
+    text-align: center;
+}
+/* style for day3 header */
+h3 {
+    color: hsl(80,30,50);
+    display: inline;
+}
