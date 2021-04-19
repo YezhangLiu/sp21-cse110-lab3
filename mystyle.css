@@ -72,28 +72,6 @@ a:active {
     line-height: 75px;
     font-size: 30px;
 }
-/* this is for the grid style */
-.item1 { grid-area: header; }
-.item2 { grid-area: left; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-
-.grid-table {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'left left main main right right';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-table > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
 /* query: for width < 600px, the background will be blue. */
 @media screen and (max-width: 600px) {
     body {
