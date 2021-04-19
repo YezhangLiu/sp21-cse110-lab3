@@ -81,7 +81,7 @@ a:active {
 /* complete missing selectors */
 /* universal */
 * {
-    display: contents;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 /* id selector */
 #day1 {
@@ -92,24 +92,24 @@ a[target=blank] {
     background-color: yellow;
 }
 /* desendant combinator */
-audio + img {
+div + span {
     font-style: bold;
 }
 /* child combinator */
 ol > li {
-    background-color:rgb(86, 77, 214);
+    color:rgb(86, 77, 214);
 }
 /* general sibling combinator */
-p ~ button {
-    background-color: #ff0000;
+h4 ~ form {
+    font-style: bold;
 }
 /* adjacent sibling combinator */
 video + p {
     background-color: #ff0000;
     font-style: bold;
 }
-
 /* combining two selectors */
 nav.nav{
+    background-color:rgb(86, 77, 214);
     font-style: bold;
 }
