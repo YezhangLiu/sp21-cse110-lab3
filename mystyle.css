@@ -36,7 +36,7 @@
     text-align: center;
 }
 /* style for day3 header with relative position */
-h3 {
+h3, h4 {
     position: static;
     color: hsl(0, 100%, 50%);
     display: block;
@@ -79,9 +79,20 @@ a:active {
     }
   }
 /* complete missing selectors */
+/* universal */
 * {
     background-color: linen;
 }
+/* id selector */
 #day1 {
     color:rgb(86, 77, 214);
 }
+/* attribute selector */
+a[target=_blank] {
+    background-color: yellow;
+  }
+/* */
+/* */
+/* */
+/* */
+/* */
