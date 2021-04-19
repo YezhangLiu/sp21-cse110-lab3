@@ -94,3 +94,9 @@ a:active {
   padding: 20px 0;
   font-size: 30px;
 }
+/* query: for width < 600px, the background will be blue. */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
