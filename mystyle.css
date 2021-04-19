@@ -101,7 +101,7 @@ ol > li {
     color:rgb(86, 77, 214);
 }
 /* general sibling combinator */
-details ~ p {
+h4 ~ p {
     background-color: yellow;
 }
 /* adjacent sibling combinator */
