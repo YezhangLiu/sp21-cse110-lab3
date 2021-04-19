@@ -80,9 +80,10 @@ a:active {
   }
 /* complete missing selectors */
 /* universal */
+/*
 * {
     background-color: linen;
-}
+}*/
 /* id selector */
 #day1 {
     color:rgb(86, 77, 214);
