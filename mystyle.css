@@ -78,7 +78,7 @@ a:active {
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 
-.grid-container {
+.grid-table {
   display: grid;
   grid-template-areas:
     'header header header header header header'
@@ -88,7 +88,7 @@ a:active {
   padding: 10px;
 }
 
-.grid-container > div {
+.grid-table > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
@@ -100,3 +100,10 @@ a:active {
       background-color: blue;
     }
   }
+/* complete missing selectors */
+* {
+    background-color: linen;
+}
+#day1 {
+    color:rgb(86, 77, 214);
+}
