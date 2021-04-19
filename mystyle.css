@@ -32,7 +32,7 @@
     top: 150px;
     display:contents;
     color: rgb(2, 2, 2);
-    text-decoration: underline dotted red;
+    text-decoration: underline dotted rgb(41, 15, 15);
     text-align: center;
 }
 /* style for day3 header with relative position */
@@ -100,7 +100,7 @@ ol > li {
     color:rgb(86, 77, 214);
 }
 /* general sibling combinator */
-p > button {
+p ~ button {
     background: #ff0000;
 }
 /* adjacent sibling combinator */
