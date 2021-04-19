@@ -31,7 +31,7 @@
     text-align: center;
 }
 /* style for day3 header */
-h3 {
+.h3 {
     color: hsl(80,30,50);
     display: inline;
 }
