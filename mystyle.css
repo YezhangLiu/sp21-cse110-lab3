@@ -1,3 +1,25 @@
-h1 {
-    color: navy;
+/* long style with absolute units */
+.boxA {
+    border: 5px dotted rebeccapurple;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: lightgray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:40px;
+    padding-right:40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:40px;
+    margin-right:40px;
+    width: 80mm;
+    height: 4cm;
+}
+/* short style with relative units*/
+.boxB {
+    border: 1vw solid rebeccapurple;
+    background-color: lightgray;
+    padding: 50 50 40 40;
+    margin: 50 50 40 40;
+    width: 15em;
+    height: 16ex;
 }
