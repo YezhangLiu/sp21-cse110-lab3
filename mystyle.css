@@ -31,14 +31,15 @@
     left: 100px;
     top: 150px;
     display:contents;
-    color: rgb(2, 2, 2);
+    color: rgb(106, 2, 190);
+    font-style: bold;
     text-decoration: underline dotted rgb(41, 15, 15);
     text-align: center;
 }
 /* style for day3 header with relative position */
-h3, h4 {
+h3, h5 {
     position: static;
-    color: hsl(0, 100%, 50%);
+    color: hsl(0, 19%, 11%);
     display: block;
 }
 /* change button color when hovering the pointer on it */
@@ -92,24 +93,23 @@ a[target=blank] {
     background-color: yellow;
 }
 /* desendant combinator */
-div + span {
-    font-style: bold;
+b strong {
+    color: blue; 
 }
 /* child combinator */
 ol > li {
     color:rgb(86, 77, 214);
 }
 /* general sibling combinator */
-h4 ~ form {
+h5 ~ p {
+    color:rgb(33, 224, 81);
     font-style: bold;
 }
 /* adjacent sibling combinator */
-video + p {
-    background-color: #ff0000;
+h3 + h4 {
     font-style: bold;
 }
 /* combining two selectors */
-nav.nav{
-    background-color:rgb(86, 77, 214);
-    font-style: bold;
+div.boxA{
+    font-style:italic;
 }
