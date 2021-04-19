@@ -21,17 +21,54 @@
     padding: 50 50 40 40;
     margin: 50 50 40 40;
     width: 15em;
+    max-width: 500px;
     height: 16ex;
+    max-height: 250px;
 }
-/* navigation text style */
+/* navigation text style with absolute position */
 .nav {
+    position: absolute;
+    left: 100px;
+    top: 150px;
     display:contents;
     color: aquamarine;
     text-decoration: underline dotted red;
     text-align: center;
 }
-/* style for day3 header */
-.h3 {
-    color: hsl(80,30,50);
-    display: inline;
+/* style for day3 header with relative position */
+h3 {
+    position: static;
+    color: hsl(0, 100%, 50%);
+    display: block;
+}
+/* change button color when hovering the pointer on it */
+button:hover {
+    color: blue;
+}
+a:active {
+    color: green;
+}
+/* apply flex box style to 2 children*/
+.flex-box {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+/* this child uses div */
+.flex-box > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* this one uses span, however, they should be the same. */
+.flex-box > span {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
